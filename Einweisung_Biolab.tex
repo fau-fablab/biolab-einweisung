@@ -1,0 +1,86 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COPYRIGHT: (C) 2012-2015 FAU FabLab and others
+% Bearbeitungen ab 2015-02-20 fallen unter CC-BY-SA 3.0
+% Sobald alle Mitautoren zugestimmt haben, steht die komplette Datei unter CC-BY-SA 3.0. Bis dahin ist der Lizenzstatus aller alten Bestandteile ungeklärt.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\basedir}{fablab-document}
+\documentclass[13pt]{\basedir/fablab-document}
+
+%\usepackage[margin=1.5cm]{geometry}
+%\topmargin 0cm
+%\usepackage{times} % Times New Roman oder ähnliche Schriftart
+%\setkomafont{sectioning}{\normalcolor\bfseries} %auch für Überschriften
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{wrapfig} %Textumlauf um Bilder
+%\usepackage{url}
+%\usepackage{hyperref}
+%\hypersetup{colorlinks=true,urlcolor=blue}
+
+%\usepackage{graphicx} % Grafiken einbinden
+%\usepackage[ngerman]{babel} % benötigt Paket texlive-lang-german, wenn ein Fehler "no hyphenation patterns ..." kommt
+\date{2017}
+%\pagestyle{empty} % keine Seitennummern
+%\sffamily
+\author{kontakt@fablab.fau.de}
+\title{Sicherheitsregeln Biolab}
+\linespread{1} % Zeilenabstand
+
+\usepackage{parskip} % Abstände zwischen Absätzen / Listenelementen
+ \setlength{\parskip}{0.7\parskip}
+% \setlength{\parsep}{0pt}
+% \setlength{\headsep}{0pt}
+% \setlength{\topskip}{0pt}
+% \setlength{\topmargin}{0pt}
+% \setlength{\topsep}{0pt}
+% \setlength{\partopsep}{0pt}
+
+% \usepackage[compact]{titlesec} % Abstände bei Überschriften
+% \titlespacing{\section}{0pt}{*0.5}{*0}
+% \titlespacing{\subsection}{0pt}{*0.3}{*0}
+%\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+%\fancyfoot[L]{}
+%\fancyfoot[C]{}
+%\fancyfoot[R]{Version 2, April 2012}
+
+\setcounter{secnumdepth}{0}
+
+% solche Wörter werden nicht getrennt!
+\hyphenation{Mechanikwerkstatt}
+
+% Neuer Befehl \subscript (Text tiefgestellt) von http://anthony.liekens.net/index.php/LaTeX/SubscriptAndSuperscriptInTextMode
+%\newcommand{\subscript}[1]{\ensuremath{_{\textrm{\small{#1}}}}}
+
+\begin{document}
+
+\maketitle
+
+\vbox{\vspace{1cm}}
+
+
+\section{Biologische Sicherheitsstufen}
+In der Biologie hat sich ein Sicherheitsstufenprinzip etabliert.
+Dieses kennt Stufen von S1 bis S4.
+Im FabLab sind Arbeiten die eine Schutzstufe erfordern nicht möglich.
+\todo{ausführlicher beschreiben und eventuell explizite Verbote aussprechen.}
+
+\section{Biolab-Betreuer}
+Das Biolab wird betreut von Christian Schulz, Patrick Kanzler und Ulrike Schöler.
+
+\section{Regeln}
+\begin{itemize}
+\item Arbeiten mit dem Biolab sind außerhalb der Workshop-Zeiten nur in Rücksprache mit den Biolab-Betreuern möglich.
+\item Während dem Workshop ist das Lab für normalen Betrieb geschlossen.
+\item Vor den Arbeiten ist der Arbeitsplatz zu säubern und mit einem Oberflächendesinfektionsmittel zu desinfizieren.
+\item Desinfiziere genauso deine Hände mit Handdesinfektion.
+\item Nach den Arbeiten wird der Arbeitsplatz gereinigt und desinfiziert.
+\item Desinfiziere nach der Arbeit erneut deine Hände.
+\item Stelle den ursprünglichen Zustand des Arbeitsplatzes wieder her.
+\end{itemize}
+
+\ccLicense{biolab-einweisung}{Sicherheitseinweisung Biolab}
+
+\end{document}

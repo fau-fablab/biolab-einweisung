@@ -1,0 +1,2 @@
+TARGET=Einweisung_Biolab Einweisungsliste_Biolab
+include fablab-document/Makefile.include
