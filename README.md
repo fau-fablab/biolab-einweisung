@@ -1,4 +1,4 @@
-Sicherheitseinweisung Biolab
+(ARCHIV - VERALTET) Sicherheitseinweisung Biolab
 ============================
 
 Sicherheitsregeln für das Biolab des [FAU FabLab](https://fablab.fau.de).
